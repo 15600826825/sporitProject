@@ -1,6 +1,6 @@
 <template>
     <div class="shopping-car">
-         <p class="car" ref="car">购物车</p>
+         <p class="car" ref="car"> 购物车 </p>
         <dl>
             <dt>
                 <img src="" alt="">
