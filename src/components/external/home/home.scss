@@ -1,86 +1,12 @@
-
-.shopping-car{
-    width: 500px;
+.home-warp{
+    width: 100%;
+    margin: 0 auto;
     overflow: hidden;
-    margin-left: 100px;
-    position: relative;
 
-    .car{
-        width: 50px;
-        height: 50px;
-        display: block;
-        color: red;
-        text-align: center;
-        line-height: 50px;
-        position: fixed;
-        right: 0;
-        top: 10px; 
-        background: #ededed;
-   }
-
-    dl{
-        width: 100%;
+    .home{
+        width: 1200px;
         overflow: hidden;
-        margin-top: 200px;
-
-        dt{
-            width: 100px;
-            height: 100px;
-            float: left;
-            background: grey;
-        }
-
-        .product-list-info{
-            float: left;
-            margin-left: 20px;
-            margin-top: 10px;
-
-            .name{
-                font-size: 22px;
-                font-weight: bold;
-                line-height: 30px;
-            }
-
-            .text{
-                font-size: 18px;
-                line-height: 26px;
-            }
-            
-        }
-
-        .product-list-buy{
-            float: right;
-            margin-top: 20px;
-
-            .learn{
-                font-size: 18px;
-                line-height: 30px;
-                color: #3c3c3c;
-            }
-        }
-
+        margin: 0 auto;
+        
     }
-    /* 运动小球 */
-    .pointPre {  /* 动画的小球 */
-        display: none;
-    }
-    .pointOuter {
-        position: absolute;  
-        z-index: 114;  
-        /* 当小球抛出时遵循贝塞尔曲线过渡 */
-        -webkit-transition: all 1s cubic-bezier(0.1,0.6,1,0.59) 0s;
-        transition: all 1s cubic-bezier(0.1,0.6,1,0.59) 0s; 
-    }
-
-    .point-inner {
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        background-color: #00a0dc;
-        /* 过渡属性名称 过渡时间 过渡曲线 延迟时间 */
-        transition: all 1s ease 0s;
-        -webkit-transition: all 1s ease 0s;     
-    }     
 }
-
-
